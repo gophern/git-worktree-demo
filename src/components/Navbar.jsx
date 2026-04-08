@@ -1,4 +1,4 @@
-import { useState } from 'react';
+﻿import { useState } from 'react';
 import { NAV_LINKS, BRAND } from '../data/navigation';
 
 function Navbar() {
@@ -7,7 +7,7 @@ function Navbar() {
     return (
         <header className="navbar" role="banner">
             <div className="navbar__inner container">
-                <a href="/" className="navbar__brand" aria-label={`${BRAND.name} 首頁`}>
+                <a href="/" className="navbar__brand" aria-label={`${BRAND.name} 首页`}>
                     <span className="navbar__logo" aria-hidden="true">◆</span>
                     <span className="navbar__brand-name">{BRAND.name}</span>
                 </a>
@@ -17,7 +17,7 @@ function Navbar() {
                     onClick={() => setMenuOpen(!menuOpen)}
                     aria-expanded={menuOpen}
                     aria-controls="nav-menu"
-                    aria-label="切換導覽選單"
+                    aria-label="切换导览选单"
                 >
                     <span className="navbar__toggle-bar" />
                     <span className="navbar__toggle-bar" />
@@ -28,7 +28,7 @@ function Navbar() {
                     id="nav-menu"
                     className={`navbar__nav ${menuOpen ? 'navbar__nav--open' : ''}`}
                     role="navigation"
-                    aria-label="主要導覽"
+                    aria-label="主要导览"
                 >
                     <ul className="navbar__list">
                         {NAV_LINKS.map((link) => (
@@ -40,7 +40,7 @@ function Navbar() {
                         ))}
                     </ul>
                     <a href="#demo" className="btn btn--primary btn--sm navbar__cta">
-                        預約 Demo
+                        预约 Demo
                     </a>
                 </nav>
             </div>

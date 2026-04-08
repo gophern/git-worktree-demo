@@ -73,7 +73,7 @@ function Hero() {
                                         <div className="hero__mockup-card hero__mockup-card--amber" />
                                     </div>
                                     <div className="hero__mockup-col">
-                                        <div className="hero__mockup-col-header">成交 🎉</div>
+                                        <div className="hero__mockup-col-header">成交 ߎ鼯div>
                                         <div className="hero__mockup-card hero__mockup-card--green" />
                                     </div>
                                 </div>

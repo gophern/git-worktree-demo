@@ -1,16 +1,16 @@
-import { PRICING_PLANS } from '../data/pricing';
+﻿import { PRICING_PLANS } from '../data/pricing';
 
 function Pricing() {
     return (
         <section className="pricing" id="pricing" aria-labelledby="pricing-title">
             <div className="container">
                 <div className="section-header">
-                    <span className="section-header__badge">方案價格</span>
+                    <span className="section-header__badge">方案价格</span>
                     <h2 id="pricing-title" className="section-header__title">
-                        簡單透明的定價，無隱藏費用
+                        简单透明的定价，无隐藏费用
                     </h2>
                     <p className="section-header__desc">
-                        所有方案均含 14 天免費試用，不需信用卡。
+                        所有方案均含 14 天免费试用，不需信用卡。
                     </p>
                 </div>
 

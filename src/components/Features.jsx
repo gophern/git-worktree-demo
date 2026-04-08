@@ -1,4 +1,4 @@
-import { FEATURES } from '../data/features';
+﻿import { FEATURES } from '../data/features';
 
 function Features() {
     return (
@@ -7,10 +7,10 @@ function Features() {
                 <div className="section-header">
                     <span className="section-header__badge">核心功能</span>
                     <h2 id="features-title" className="section-header__title">
-                        一個平台，解決所有銷售挑戰
+                        一个平台，解决所有销售挑战
                     </h2>
                     <p className="section-header__desc">
-                        從管線管理到數據分析，SalesPilot 涵蓋業務團隊日常所需的每一項功能。
+                        从管线管理到数据分析，SalesPilot 涵盖业务团队日常所需的每一项功能。
                     </p>
                 </div>
 

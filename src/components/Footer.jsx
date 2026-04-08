@@ -1,4 +1,4 @@
-import { FOOTER_DATA } from '../data/footer';
+﻿import { FOOTER_DATA } from '../data/footer';
 
 const SOCIAL_ICONS = {
     fb: (
@@ -31,12 +31,12 @@ function Footer() {
             <div className="container">
                 <div className="footer__top">
                     <div className="footer__brand">
-                        <a href="/" className="footer__logo" aria-label={`${brand.name} 首頁`}>
+                        <a href="/" className="footer__logo" aria-label={`${brand.name} 首页`}>
                             <span className="footer__logo-icon" aria-hidden="true">◆</span>
                             {brand.name}
                         </a>
                         <p className="footer__brand-desc">{brand.description}</p>
-                        <div className="footer__social" role="list" aria-label="社群媒體連結">
+                        <div className="footer__social" role="list" aria-label="社群媒体连结">
                             {social.map((s) => (
                                 <a
                                     key={s.icon}

@@ -1,4 +1,4 @@
-import { SOCIAL_PROOF } from '../data/socialProof';
+﻿import { SOCIAL_PROOF } from '../data/socialProof';
 
 function SocialProof() {
     const { heading, logos, testimonial } = SOCIAL_PROOF;
@@ -10,7 +10,7 @@ function SocialProof() {
                     {heading}
                 </p>
 
-                <div className="social-proof__logos" role="list" aria-label="客戶企業列表">
+                <div className="social-proof__logos" role="list" aria-label="客户企业列表">
                     {logos.map((logo) => (
                         <div key={logo.id} className="social-proof__logo" role="listitem">
                             <div className="social-proof__logo-placeholder" aria-label={logo.name}>
@@ -21,7 +21,7 @@ function SocialProof() {
                 </div>
 
                 <blockquote className="social-proof__testimonial">
-                    <p className="social-proof__quote">「{testimonial.quote}」</p>
+                    <p className="social-proof__quote">“{testimonial.quote}”</p>
                     <footer className="social-proof__author">
                         <div className="social-proof__avatar" aria-hidden="true">
                             {testimonial.author.charAt(0)}
