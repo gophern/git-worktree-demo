@@ -28,3 +28,6 @@ npm-debug.log*
 
 # Agent reference spec
 git-worktree-spec.md
+
+# Local git worktrees
+.worktrees/
