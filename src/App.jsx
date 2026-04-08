@@ -4,8 +4,10 @@ import SocialProof from './components/SocialProof';
 import Features from './components/Features';
 import UseCases from './components/UseCases';
 import Pricing from './components/Pricing';
+import Faq from './components/Faq';
 import CallToAction from './components/CallToAction';
 import Footer from './components/Footer';
+import CookieConsent from './components/CookieConsent';
 
 function App() {
     return (
@@ -17,9 +19,11 @@ function App() {
                 <Features />
                 <UseCases />
                 <Pricing />
+                <Faq />
                 <CallToAction />
             </main>
             <Footer />
+            <CookieConsent />
         </div>
     );
 }
